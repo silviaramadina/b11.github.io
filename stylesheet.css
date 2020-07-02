@@ -1,0 +1,56 @@
+.comments {
+  padding: 100px 80px;
+  display: column;
+  flex: auto;
+}
+
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+
+input, textarea {
+  width: 55%;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+
+.contact-submit {
+  background-color: #dee7ec;
+  color: #889eab;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 25%;
+  position: absolute;
+  left: 439px;
+}
+
+@media (max-width: 1000px) {
+  .comments {
+    width: 100%;
+    padding: 0;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  .contact-submit {
+    position: absolute;
+    right: 50px;
+    width: 136px;
+  }
+
+  input {
+    padding: 10px 80px 10px 20px;
+  }
+
+  textarea {
+    padding: 10px 80px 10px 20px;
+  }
+}
+
+
+
