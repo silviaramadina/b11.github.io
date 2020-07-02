@@ -5,10 +5,10 @@
 }
 
 .section-title {
-  border-bottom: 2px solid #dee7ec;
+  border-bottom: 2px solid #7d8597;
   font-size: 28px;
   padding-bottom: 15px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 input, textarea {
@@ -16,17 +16,22 @@ input, textarea {
   margin-bottom: 30px;
   padding: 20px;
   font-size: 18px;
-  border: 1px solid #dee7ec;
+  border: 1px solid #7d8597;
 }
 
 .contact-submit {
-  background-color: #dee7ec;
-  color: #889eab;
+  background-color: #095bde;
+  color: #fff;
   cursor: pointer;
-  border-radius: 10px;
+  border-radius: 1px;
   width: 25%;
   position: absolute;
   left: 439px;
+}
+
+.btn:hover {
+  background-color: #01245c;
+  color: #7d8597;
 }
 
 @media (max-width: 1000px) {
@@ -39,8 +44,8 @@ input, textarea {
 
   .contact-submit {
     position: absolute;
-    right: 50px;
-    width: 136px;
+    left: 387px;
+    width: 157px;
   }
 
   input {
@@ -50,6 +55,30 @@ input, textarea {
   textarea {
     padding: 10px 80px 10px 20px;
   }
+}
+
+@media (max-width: 675px) {
+  .comments {
+    width: 100%;
+    padding: 0;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  .contact-submit {
+    position: absolute;
+    left: 26px;
+    width: 157px;
+  }
+
+  input {
+    padding: 10px 80px 10px 20px;
+  }
+
+  textarea {
+    padding: 10px 80px 10px 20px;
+  }
+
 }
 
 
